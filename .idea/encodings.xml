@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/com/weijia/decorate/bean/Tshirt.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/weijia/decorate/bean/clothes.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/weijia/decorate/bean/person.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/weijia/decorate/bean/shoes.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/weijia/decorate/client.java" charset="GBK" />
+  </component>
+</project>

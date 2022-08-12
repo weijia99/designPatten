@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a2fadee-f3d3-4a46-8426-481a27a26c45" name="Changes" comment="add factory mode">
-      <change afterPath="$PROJECT_DIR$/src/com/weijia/strategy/bean/strategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/weijia/strategy/bean/strategyA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/weijia/strategy/bean/strategyB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/weijia/strategy/bean/strategyC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/weijia/strategy/client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/weijia/strategy/strategyContext.java" afterDir="false" />
+    <list default="true" id="2a2fadee-f3d3-4a46-8426-481a27a26c45" name="Changes" comment="add strategy mode">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/decorate/bean/Tshirt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/decorate/bean/clothes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/decorate/bean/person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/decorate/bean/shoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/decorate/client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/proxy/bean/GiveGift.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/proxy/bean/proxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/proxy/bean/pursuit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/proxy/bean/schoolGirl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/proxy/client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -36,13 +42,13 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "project.structure.last.edited": "Facet",
     "project.structure.proportion": "0.0",
@@ -50,13 +56,39 @@
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager" selected="应用程序.com.weijia.strategy.client">
+  <component name="RunManager" selected="应用程序.com.weijia.proxy.client">
     <configuration name="client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.weijia.factory.client" />
       <module name="designPatten" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.weijia.factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.weijia.decorate.client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.weijia.decorate.client" />
+      <module name="designPatten" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.weijia.decorate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.weijia.proxy.client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.weijia.proxy.client" />
+      <module name="designPatten" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.weijia.proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,6 +111,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.com.weijia.proxy.client" />
+        <item itemvalue="应用程序.com.weijia.decorate.client" />
         <item itemvalue="应用程序.com.weijia.strategy.client" />
         <item itemvalue="应用程序.client" />
       </list>
@@ -93,7 +127,8 @@
       <option name="presentableId" value="Default" />
       <updated>1660036740325</updated>
       <workItem from="1660036741587" duration="312000" />
-      <workItem from="1660037068937" duration="5007000" />
+      <workItem from="1660037068937" duration="5759000" />
+      <workItem from="1660301045943" duration="1797000" />
     </task>
     <task id="LOCAL-00001" summary="add factory mode">
       <created>1660038860844</created>
@@ -102,14 +137,44 @@
       <option name="project" value="LOCAL" />
       <updated>1660038860844</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add strategy mode">
+      <created>1660047479865</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660047479865</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add factory mode" />
-    <option name="LAST_COMMIT_MESSAGE" value="add factory mode" />
+    <MESSAGE value="add strategy mode" />
+    <option name="LAST_COMMIT_MESSAGE" value="add strategy mode" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/weijia/decorate/client.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
