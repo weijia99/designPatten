@@ -4,38 +4,67 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a2fadee-f3d3-4a46-8426-481a27a26c45" name="Changes" comment="day 2&amp;&amp;add factory model and single model">
-      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/adapter/SDCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/adapter/SDimpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/adapter/TFAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/adapter/TFAdapter2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/adapter/TFCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/adapter/TFimpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/adapter/client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/adapter/computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/builder/bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/builder/builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/builder/client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/builder/director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/builder/mobikeBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/builder/ofoBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/builder/update/client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/builder/update/phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/decorate/Garnish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/decorate/bacon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/decorate/client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/decorate/egg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/decorate/fastFood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/decorate/fireNoodle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/decorate/fireRice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/prototype/citation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/prototype/client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/prototype/realizeType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/prototype/student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/proxy/client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/proxy/proxySeller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/proxy/sellTicket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/proxy/station.java" afterDir="false" />
+    <list default="true" id="2a2fadee-f3d3-4a46-8426-481a27a26c45" name="Changes" comment="day 3 add proxy&amp;decorate&amp;proxy&amp;day 2left">
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/apperance/TV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/apperance/client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/apperance/light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/apperance/smartAppliances.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/bridge/AVIFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/bridge/Mac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/bridge/RMVBFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/bridge/Windows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/bridge/client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/bridge/os.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/bridge/videoFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/combination/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/combination/MenuComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/combination/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/combination/client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/command/chef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/command/client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/command/command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/command/order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/command/orderCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/command/waiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/flyWeight/IBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/flyWeight/LBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/flyWeight/abstractBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/flyWeight/boxFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/flyWeight/client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/mediator/client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/mediator/mediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/mediator/owner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/mediator/person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/mediator/struct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/mediator/tenant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/observe/client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/observe/observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/observe/subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/observe/subscription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/observe/wechar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/responseChain/client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/responseChain/groupLeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/responseChain/handle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/responseChain/leaveRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/responseChain/manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/state/context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/state/listState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/state/openingState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/strategy/salesMan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/strategy/strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/strategy/strategy1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/strategy/strategy2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/template/abstractVeg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/template/baicai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/template/caixi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/template/client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/visitor/animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/visitor/cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/visitor/dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/visitor/home.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/visitor/owner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/visitor/peroson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weijia/design/visitor/someone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -79,7 +108,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Facet&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -89,16 +118,19 @@
       <recent name="D:\code\java\designPatten\src\com\weijia\design\factory\factory" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.weijia.design.template" />
+      <recent name="com.weijia.design.flyWeight" />
+      <recent name="com.weijia.design.apperance" />
       <recent name="com.weijia.design.factory.factory" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.com.weijia.design.decorate.client">
+  <component name="RunManager" selected="应用程序.com.weijia.design.visitor.client">
     <configuration name="client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.weijia.design.adapter.client" />
+      <option name="MAIN_CLASS_NAME" value="com.weijia.design.template.client" />
       <module name="designPatten" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.weijia.design.adapter.*" />
+          <option name="PATTERN" value="com.weijia.design.template.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.weijia.design.builder.client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.weijia.design.builder.client" />
+    <configuration name="com.weijia.design.command.client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.weijia.design.command.client" />
       <module name="designPatten" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.weijia.design.builder.*" />
+          <option name="PATTERN" value="com.weijia.design.command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.weijia.design.builder.update.client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.weijia.design.builder.update.client" />
+    <configuration name="com.weijia.design.observe.client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.weijia.design.observe.client" />
       <module name="designPatten" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.weijia.design.builder.update.*" />
+          <option name="PATTERN" value="com.weijia.design.observe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +164,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.weijia.design.decorate.client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.weijia.design.decorate.client" />
+    <configuration name="com.weijia.design.responseChain.client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.weijia.design.responseChain.client" />
       <module name="designPatten" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.weijia.design.decorate.*" />
+          <option name="PATTERN" value="com.weijia.design.responseChain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +177,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.weijia.design.proxy.client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.weijia.design.proxy.client" />
+    <configuration name="com.weijia.design.visitor.client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.weijia.design.visitor.client" />
       <module name="designPatten" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.weijia.design.proxy.*" />
+          <option name="PATTERN" value="com.weijia.design.visitor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.com.weijia.design.decorate.client" />
+        <item itemvalue="应用程序.com.weijia.design.visitor.client" />
+        <item itemvalue="应用程序.com.weijia.design.observe.client" />
+        <item itemvalue="应用程序.com.weijia.design.responseChain.client" />
+        <item itemvalue="应用程序.com.weijia.design.command.client" />
         <item itemvalue="应用程序.client" />
-        <item itemvalue="应用程序.com.weijia.design.proxy.client" />
-        <item itemvalue="应用程序.com.weijia.design.builder.update.client" />
-        <item itemvalue="应用程序.com.weijia.design.builder.client" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +218,9 @@
       <workItem from="1673663382773" duration="7248000" />
       <workItem from="1673751312562" duration="709000" />
       <workItem from="1673752040769" duration="5357000" />
-      <workItem from="1673765728559" duration="3900000" />
+      <workItem from="1673765728559" duration="3971000" />
+      <workItem from="1673840478349" duration="10821000" />
+      <workItem from="1673925880121" duration="8409000" />
     </task>
     <task id="LOCAL-00001" summary="add factory mode">
       <created>1660038860844</created>
@@ -216,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673670101123</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="day 3 add proxy&amp;decorate&amp;proxy&amp;day 2left">
+      <created>1673769702750</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673769702750</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,7 +279,8 @@
     <MESSAGE value="add strategy mode" />
     <MESSAGE value="add decorate&amp;proxy mode" />
     <MESSAGE value="day 2&amp;&amp;add factory model and single model" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 2&amp;&amp;add factory model and single model" />
+    <MESSAGE value="day 3 add proxy&amp;decorate&amp;proxy&amp;day 2left" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 3 add proxy&amp;decorate&amp;proxy&amp;day 2left" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -247,11 +289,6 @@
           <url>file://$PROJECT_DIR$/src/com/weijia/decorate/client.java</url>
           <line>11</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/weijia/design/decorate/client.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

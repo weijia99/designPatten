@@ -6,8 +6,14 @@
     <file url="file://$PROJECT_DIR$/src/com/weijia/decorate/bean/person.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/weijia/decorate/bean/shoes.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/weijia/decorate/client.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/weijia/design/command/client.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/weijia/design/command/orderCommand.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/weijia/design/flyWeight/abstractBox.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/weijia/design/observe/client.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/weijia/design/prototype/citation.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/weijia/design/prototype/realizeType.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/weijia/design/responseChain/groupLeader.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/weijia/design/responseChain/manager.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/weijia/factory/fac/addBean.java" charset="UTF-8" />
   </component>
 </project>
